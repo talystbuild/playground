@@ -10,7 +10,7 @@ const (
 )
 
 func (s Status) String() string {
-	return fmt.Sprintf("Status-%d", s)
+	return fmt.Sprintf("Status--%d", s)
 }
 
 func main() {
