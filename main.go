@@ -13,7 +13,6 @@ func (s Status) String() string {
 	return fmt.Sprintf("Status-%d", s)
 }
 
-func main() 
-{
+func main() {
 	fmt.Println(StatusError.String())
 }
