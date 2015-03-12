@@ -4,7 +4,7 @@ import (
   "testing"
 )
 
-func (t testing.T) TestSomething(){
+func TestSomething( t testing.T){
   if(1==1){
     t.Fail()
   }
